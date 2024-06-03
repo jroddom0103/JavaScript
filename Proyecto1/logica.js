@@ -19,3 +19,9 @@ console.log("Hola Mundo")
         console.log("Lo pusiste mal")
     }
     
+    /************************/
+
+    var textoNombre = prompt("Pon el nombre")
+    var textoApellido1 = prompt("Pon el primer apellido")
+    var textoApellido2 = prompt("Pon el segundo apellido")
+    console.log(textoNombre+" "+textoApellido1+" "+textoApellido2)
