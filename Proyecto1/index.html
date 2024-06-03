@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Proyecto</title> <!-- La etiqueta title es para poner título a la pestaña -->
+</head>
+<body>
+    <p id="pParrafo">Un párrafo</p> <!--El atributo id sirve para identificar al elemento-->
+    <h1>Un título muy grande</h1>
+    <h2>Un título un poco más pequeño</h2>
+    <h3>Un título un poco más pequeño</h3>
+    <div>Una sección</div>
+    <ul> <!--UnorderedList-->
+        <li>Elemento1</li> <!--List Item-->
+        <li>Elemento2</li> <!--List Item-->
+        <li>Elemento3</li> <!--List Item-->
+        <li>Elemento4</li> <!--List Item-->
+    </ul>
+    <ol>    <!--Ordered list-->
+        <li>Elemento1</li> <!--List Item-->    
+        <li>Elemento2</li> <!--List Item-->    
+        <li>Elemento3</li> <!--List Item-->    
+        <li>Elemento4</li> <!--List Item-->    
+    </ol>
+    <a href="https://www.google.es">Link super guay</a> <!--href es el atributo para el enlace-->
+    <table>
+
+    </table>
+</body>
+</html>
+
+<!--Etiqueta SCRIPT, es donde se mete el código JS-->
+<script>
+    console.log("Hola Mundo")
+    console.log("Mensaje adicional")
+
+    var parrafo = document.getElementById("pParrafo")
+    console.log(parrafo.textContent)
+
+    parrafo.textContent = "Otro texto muy diferente"
+    console.log(parrafo.textContent)
+
+</script>
