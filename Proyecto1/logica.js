@@ -12,4 +12,10 @@ console.log("Hola Mundo")
     textoPrueba = prompt("Escribe hola") //prompt devuelve un String, así que lo que hacemos es 
     // almacenar ese String en la variable textoPrueba
     parrafo.textContent = textoPrueba
-    console.log(parrafo.textContent)
+    if(parrafo.textContent=="Hola"){
+        console.log("Lo pusiste bien")
+    }else{
+        parrafo.textContent=""
+        console.log("Lo pusiste mal")
+    }
+    
