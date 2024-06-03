@@ -6,3 +6,10 @@ console.log("Hola Mundo")
 
     parrafo.textContent = "Otro texto muy diferente"
     console.log(parrafo.textContent)
+
+    var textoPrueba = "" //Declaramos una variable con nombre textoPrueba
+    
+    textoPrueba = prompt("Escribe hola") //prompt devuelve un String, así que lo que hacemos es 
+    // almacenar ese String en la variable textoPrueba
+
+    console.log(textoPrueba)
